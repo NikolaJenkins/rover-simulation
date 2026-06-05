@@ -1,6 +1,6 @@
 Project Goal
 
-Build an autonomous rover simulatio using ROS 2 and Gazebo.
+Build an autonomous rover simulation using ROS 2 and Gazebo.
 
 Features:
 - Differential drive rover
