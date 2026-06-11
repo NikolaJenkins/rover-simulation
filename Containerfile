@@ -26,8 +26,10 @@ RUN export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-inf
 
 RUN apt-get update && apt-get install -y \
     ros-jazzy-desktop \
+    python3-catkin-pkg \
     python3-colcon-common-extensions \
-    python3-rosdep
+    python3-rosdep \
+    gz-harmonic
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 

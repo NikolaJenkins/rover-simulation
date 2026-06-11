@@ -1,0 +1,29 @@
+[0.777s] Invoking command in '/home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
+[1.078s] running develop
+[1.266s] running egg_info
+[1.266s] creating turtlebot3_example.egg-info
+[1.283s] writing turtlebot3_example.egg-info/PKG-INFO
+[1.283s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[1.283s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[1.283s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[1.284s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[1.284s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.317s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.318s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.336s] running build_ext
+[1.336s] Creating /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages/turtlebot3-example.egg-link (link to .)
+[1.336s] Installing turtlebot3_absolute_move script to /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.336s] Installing turtlebot3_interactive_marker script to /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.337s] Installing turtlebot3_obstacle_detection script to /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.337s] Installing turtlebot3_patrol_client script to /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.337s] Installing turtlebot3_patrol_server script to /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.337s] Installing turtlebot3_relative_move script to /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.337s] 
+[1.337s] Installed /home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example
+[1.337s] running symlink_data
+[1.337s] creating /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/share/ament_index
+[1.337s] creating /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index
+[1.337s] creating /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.338s] symbolically linking /home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.338s] symbolically linking /home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example/package.xml -> /home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/share/turtlebot3_example
+[1.375s] Invoked command in '/home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/njoy/ROS/ros_ws/turtlebot3_ws/build/turtlebot3_example/build --no-deps symlink_data
