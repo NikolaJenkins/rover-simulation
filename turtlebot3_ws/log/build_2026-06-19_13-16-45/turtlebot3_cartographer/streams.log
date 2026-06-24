@@ -1,0 +1,45 @@
+[0.059s] Invoking command in '/home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/ROS/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer
+[0.286s] -- The C compiler identification is GNU 13.3.0
+[0.444s] -- The CXX compiler identification is GNU 13.3.0
+[0.481s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.699s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.700s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.722s] -- Detecting CXX compiler ABI info
+[0.939s] -- Detecting CXX compiler ABI info - done
+[0.958s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.959s] -- Detecting CXX compile features
+[0.960s] -- Detecting CXX compile features - done
+[0.998s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.380s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.468s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.698s] -- Configuring done (1.6s)
+[1.704s] -- Generating done (0.0s)
+[1.707s] -- Build files have been written to: /home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer
+[1.714s] Invoked command in '/home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/ROS/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer
+[1.715s] Invoking command in '/home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --build /home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer -- -j16 -l16
+[1.787s] Invoked command in '/home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --build /home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer -- -j16 -l16
+[1.788s] Invoking command in '/home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --install /home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer
+[1.801s] -- Install configuration: ""
+[1.802s] -- Execute custom install script
+[1.802s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.816s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.829s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.841s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.855s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.869s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.883s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.895s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.908s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.922s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.936s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.948s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.962s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.974s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.988s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[2.005s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.037s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.058s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.083s] -- Symlinking: /home/njoy/ROS/turtlebot3_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.109s] Invoked command in '/home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/ROS/ros_ws/turtlebot3_ws/install/turtlebot3_example DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --install /home/njoy/ROS/turtlebot3_ws/build/turtlebot3_cartographer

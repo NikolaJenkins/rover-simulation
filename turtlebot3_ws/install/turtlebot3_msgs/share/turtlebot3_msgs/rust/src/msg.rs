@@ -1,0 +1,1 @@
+/home/njoy/ROS/turtlebot3_ws/build/turtlebot3_msgs/rosidl_generator_rs/turtlebot3_msgs/rust/src/msg.rs
