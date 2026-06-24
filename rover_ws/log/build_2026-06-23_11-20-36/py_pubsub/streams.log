@@ -1,0 +1,18 @@
+[1.283s] Invoking command in '/home/njoy/ROS/rover_ws/build/py_pubsub': DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/ROS/rover_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/njoy/ROS/rover_ws/build/py_pubsub/build --no-deps symlink_data
+[1.583s] running develop
+[1.775s] running egg_info
+[1.792s] writing py_pubsub.egg-info/PKG-INFO
+[1.792s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[1.792s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[1.792s] writing requirements to py_pubsub.egg-info/requires.txt
+[1.793s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[1.826s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[1.827s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[1.845s] running build_ext
+[1.845s] Creating /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.12/site-packages/py-pubsub.egg-link (link to .)
+[1.846s] Installing listener script to /home/njoy/ROS/rover_ws/install/py_pubsub/lib/py_pubsub
+[1.846s] Installing talker script to /home/njoy/ROS/rover_ws/install/py_pubsub/lib/py_pubsub
+[1.846s] 
+[1.846s] Installed /home/njoy/ROS/rover_ws/build/py_pubsub
+[1.846s] running symlink_data
+[1.887s] Invoked command in '/home/njoy/ROS/rover_ws/build/py_pubsub' returned '0': DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/ROS/rover_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/njoy/ROS/rover_ws/build/py_pubsub/build --no-deps symlink_data

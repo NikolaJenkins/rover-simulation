@@ -1,0 +1,3 @@
+[console_scripts]
+detector = rover_experiments.scan_monitor:main
+odometry = rover_experiments.odom_drive:main
