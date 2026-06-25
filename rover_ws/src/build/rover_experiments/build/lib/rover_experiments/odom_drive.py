@@ -1,7 +1,7 @@
 import math
 
 import rclpy
-from geometry_msgs.msg import Point, TwistStamped
+from geometry_msgs.msg import TwistStamped
 from nav_msgs.msg import Odometry
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, qos_profile_sensor_data
@@ -17,32 +17,12 @@ class RobotOdom(Node):
 
         self.cmd_pub = self.create_publisher(TwistStamped, "cmd_vel", 10)
         self.last_print_time = self.get_clock().now()
-        self.initial_point = None
-        self.distance_traveled = 0.0
 
     def scan_callback(self, msg):
-        cmd = TwistStamped()
-        if self.initial_point is None:
-            self.initial_point = Point()
-            self.initial_point.x = msg.pose.pose.position.x
-            self.initial_point.y = msg.pose.pose.position.y
-            self.initial_point.z = msg.pose.pose.position.z
-
-        self.distance_traveled = point_distance(
-            self.initial_point, msg.pose.pose.position
-        )
-
-        if self.distance_traveled <= 2.0:
-            cmd.twist.linear.x = 0.75
-        else:
-            cmd.twist.linear.x = 0.0
-        self.cmd_pub.publish(cmd)
-
         now = self.get_clock().now()
         if (now - self.last_print_time).nanoseconds < 1e9:
             return
         self.last_print_time = now
-        print(f"distance traveled: {self.distance_traveled:.2f}")
         print(f"x: {msg.pose.pose.position.x:.2f}")
         print(f"y: {msg.pose.pose.position.y:.2f}")
         print(f"heading: {msg.pose.pose.orientation.z:.2f}")
@@ -51,14 +31,6 @@ class RobotOdom(Node):
         cmd = TwistStamped()
         cmd.twist.linear.x = 0.5
         self.cmd_pub.publish(cmd)
-
-
-def point_distance(point1: Point, point2: Point) -> float:
-    return math.sqrt(
-        (point1.x - point2.x) ** 2
-        + (point1.y - point2.y) ** 2
-        + (point1.z - point2.z) ** 2
-    )
 
 
 def main(args=None):

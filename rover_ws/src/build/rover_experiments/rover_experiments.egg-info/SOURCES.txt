@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/rover_experiments
+rover_experiments/__init__.py
+rover_experiments/odom_drive.py
+rover_experiments/scan_monitor.py
+rover_experiments.egg-info/PKG-INFO
+rover_experiments.egg-info/SOURCES.txt
+rover_experiments.egg-info/dependency_links.txt
+rover_experiments.egg-info/entry_points.txt
+rover_experiments.egg-info/requires.txt
+rover_experiments.egg-info/top_level.txt
+rover_experiments.egg-info/zip-safe
