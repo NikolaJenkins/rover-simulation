@@ -1,0 +1,32 @@
+running develop
+Removing /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover-experiments.egg-link (link to .)
+running egg_info
+writing ../build/rover_experiments/rover_experiments.egg-info/PKG-INFO
+writing dependency_links to ../build/rover_experiments/rover_experiments.egg-info/dependency_links.txt
+writing entry points to ../build/rover_experiments/rover_experiments.egg-info/entry_points.txt
+writing requirements to ../build/rover_experiments/rover_experiments.egg-info/requires.txt
+writing top-level names to ../build/rover_experiments/rover_experiments.egg-info/top_level.txt
+reading manifest file '../build/rover_experiments/rover_experiments.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/rover_experiments/rover_experiments.egg-info/SOURCES.txt'
+running build
+running build_py
+copying rover_experiments/odom_drive.py -> /home/njoy/ROS/rover_ws/src/build/rover_experiments/build/lib/rover_experiments
+running install
+running install_lib
+creating /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+copying /home/njoy/ROS/rover_ws/src/build/rover_experiments/build/lib/rover_experiments/__init__.py -> /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+copying /home/njoy/ROS/rover_ws/src/build/rover_experiments/build/lib/rover_experiments/scan_monitor.py -> /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+copying /home/njoy/ROS/rover_ws/src/build/rover_experiments/build/lib/rover_experiments/odom_drive.py -> /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+byte-compiling /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover_experiments/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover_experiments/scan_monitor.py to scan_monitor.cpython-312.pyc
+byte-compiling /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover_experiments/odom_drive.py to odom_drive.cpython-312.pyc
+running install_data
+copying resource/rover_experiments -> /home/njoy/ROS/rover_ws/src/install/rover_experiments/share/ament_index/resource_index/packages
+copying package.xml -> /home/njoy/ROS/rover_ws/src/install/rover_experiments/share/rover_experiments
+running install_egg_info
+Copying ../build/rover_experiments/rover_experiments.egg-info to /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/python3.12/site-packages/rover_experiments-0.0.0-py3.12.egg-info
+running install_scripts
+Installing detector script to /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/rover_experiments
+Installing odometry script to /home/njoy/ROS/rover_ws/src/install/rover_experiments/lib/rover_experiments
+writing list of installed files to '/home/njoy/ROS/rover_ws/src/build/rover_experiments/install.log'

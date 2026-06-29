@@ -1,0 +1,38 @@
+[1.011s] Invoking command in '/home/njoy/ROS/rover_ws/build/rover_experiments': DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/ROS/rover_ws/build/rover_experiments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/njoy/ROS/rover_ws/build/rover_experiments/build
+[1.390s] running develop
+[1.656s] Removing /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover-experiments.egg-link (link to .)
+[1.730s] Invoked command in '/home/njoy/ROS/rover_ws/build/rover_experiments' returned '0': DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/ROS/rover_ws/build/rover_experiments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/njoy/ROS/rover_ws/build/rover_experiments/build
+[1.732s] Invoking command in '/home/njoy/ROS/rover_ws/src/rover_experiments': DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/ROS/rover_ws/build/rover_experiments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_experiments build --build-base /home/njoy/ROS/rover_ws/build/rover_experiments/build install --record /home/njoy/ROS/rover_ws/build/rover_experiments/install.log --single-version-externally-managed install_data --force
+[2.076s] running egg_info
+[2.099s] writing ../../build/rover_experiments/rover_experiments.egg-info/PKG-INFO
+[2.099s] writing dependency_links to ../../build/rover_experiments/rover_experiments.egg-info/dependency_links.txt
+[2.100s] writing entry points to ../../build/rover_experiments/rover_experiments.egg-info/entry_points.txt
+[2.100s] writing requirements to ../../build/rover_experiments/rover_experiments.egg-info/requires.txt
+[2.100s] writing top-level names to ../../build/rover_experiments/rover_experiments.egg-info/top_level.txt
+[2.149s] reading manifest file '../../build/rover_experiments/rover_experiments.egg-info/SOURCES.txt'
+[2.149s] adding license file 'LICENSE'
+[2.150s] writing manifest file '../../build/rover_experiments/rover_experiments.egg-info/SOURCES.txt'
+[2.150s] running build
+[2.150s] running build_py
+[2.150s] copying rover_experiments/odom_drive.py -> /home/njoy/ROS/rover_ws/build/rover_experiments/build/lib/rover_experiments
+[2.151s] running install
+[2.160s] running install_lib
+[2.184s] creating /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+[2.184s] copying /home/njoy/ROS/rover_ws/build/rover_experiments/build/lib/rover_experiments/__init__.py -> /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+[2.185s] copying /home/njoy/ROS/rover_ws/build/rover_experiments/build/lib/rover_experiments/scan_monitor.py -> /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+[2.185s] copying /home/njoy/ROS/rover_ws/build/rover_experiments/build/lib/rover_experiments/geometry.py -> /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+[2.185s] copying /home/njoy/ROS/rover_ws/build/rover_experiments/build/lib/rover_experiments/odom_drive.py -> /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments
+[2.186s] byte-compiling /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments/__init__.py to __init__.cpython-312.pyc
+[2.186s] byte-compiling /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments/scan_monitor.py to scan_monitor.cpython-312.pyc
+[2.187s] byte-compiling /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments/geometry.py to geometry.cpython-312.pyc
+[2.187s] byte-compiling /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments/odom_drive.py to odom_drive.cpython-312.pyc
+[2.188s] running install_data
+[2.189s] copying resource/rover_experiments -> /home/njoy/ROS/rover_ws/install/rover_experiments/share/ament_index/resource_index/packages
+[2.189s] copying package.xml -> /home/njoy/ROS/rover_ws/install/rover_experiments/share/rover_experiments
+[2.189s] running install_egg_info
+[2.215s] Copying ../../build/rover_experiments/rover_experiments.egg-info to /home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments-0.0.0-py3.12.egg-info
+[2.218s] running install_scripts
+[2.414s] Installing detector script to /home/njoy/ROS/rover_ws/install/rover_experiments/lib/rover_experiments
+[2.414s] Installing odometry script to /home/njoy/ROS/rover_ws/install/rover_experiments/lib/rover_experiments
+[2.415s] writing list of installed files to '/home/njoy/ROS/rover_ws/build/rover_experiments/install.log'
+[2.513s] Invoked command in '/home/njoy/ROS/rover_ws/src/rover_experiments' returned '0': DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/ROS/rover_ws/build/rover_experiments/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_experiments build --build-base /home/njoy/ROS/rover_ws/build/rover_experiments/build install --record /home/njoy/ROS/rover_ws/build/rover_experiments/install.log --single-version-externally-managed install_data --force

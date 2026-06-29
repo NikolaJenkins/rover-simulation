@@ -11,6 +11,7 @@ setup.py
 ../../build/rover_experiments/rover_experiments.egg-info/zip-safe
 resource/rover_experiments
 rover_experiments/__init__.py
+rover_experiments/geometry.py
 rover_experiments/odom_drive.py
 rover_experiments/scan_monitor.py
 test/test_copyright.py
