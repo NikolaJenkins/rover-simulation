@@ -1,0 +1,38 @@
+[1.411s] Invoking command in '/home/njoy/ROS/rover_ws/src/py_pubsub': DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PYTHONPATH=/home/njoy/ROS/rover_ws/build/py_pubsub/prefix_override:/usr/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/njoy/ROS/rover_ws/build/py_pubsub/build install --record /home/njoy/ROS/rover_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[1.609s] running egg_info
+[1.619s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.619s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.620s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.620s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.620s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.620s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.620s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.643s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.644s] adding license file 'LICENSE'
+[1.644s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.644s] running build
+[1.644s] running build_py
+[1.645s] creating /home/njoy/ROS/rover_ws/build/py_pubsub/build/lib/py_pubsub
+[1.645s] copying py_pubsub/__init__.py -> /home/njoy/ROS/rover_ws/build/py_pubsub/build/lib/py_pubsub
+[1.645s] copying py_pubsub/publisher_member_function.py -> /home/njoy/ROS/rover_ws/build/py_pubsub/build/lib/py_pubsub
+[1.645s] copying py_pubsub/subscriber_member_function.py -> /home/njoy/ROS/rover_ws/build/py_pubsub/build/lib/py_pubsub
+[1.645s] running install
+[1.649s] running install_lib
+[1.659s] creating /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages/py_pubsub
+[1.659s] copying /home/njoy/ROS/rover_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages/py_pubsub
+[1.659s] copying /home/njoy/ROS/rover_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages/py_pubsub
+[1.659s] copying /home/njoy/ROS/rover_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages/py_pubsub
+[1.659s] byte-compiling /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages/py_pubsub/__init__.py to __init__.cpython-314.pyc
+[1.660s] byte-compiling /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-314.pyc
+[1.660s] byte-compiling /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-314.pyc
+[1.661s] running install_data
+[1.661s] creating /home/njoy/ROS/rover_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.661s] copying resource/py_pubsub -> /home/njoy/ROS/rover_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.661s] copying package.xml -> /home/njoy/ROS/rover_ws/install/py_pubsub/share/py_pubsub
+[1.661s] running install_egg_info
+[1.672s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages/py_pubsub-0.0.0-py3.14.egg-info
+[1.673s] running install_scripts
+[1.730s] Installing listener script to /home/njoy/ROS/rover_ws/install/py_pubsub/lib/py_pubsub
+[1.730s] Installing talker script to /home/njoy/ROS/rover_ws/install/py_pubsub/lib/py_pubsub
+[1.730s] writing list of installed files to '/home/njoy/ROS/rover_ws/build/py_pubsub/install.log'
+[1.769s] Invoked command in '/home/njoy/ROS/rover_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PYTHONPATH=/home/njoy/ROS/rover_ws/build/py_pubsub/prefix_override:/usr/lib/python3.14/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/njoy/ROS/rover_ws/install/py_pubsub/lib/python3.14/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/njoy/ROS/rover_ws/build/py_pubsub/build install --record /home/njoy/ROS/rover_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

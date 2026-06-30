@@ -1,5 +1,0 @@
-  File "/home/njoy/ROS/rover_ws/install/rover_experiments/lib/python3.12/site-packages/rover_experiments/scan_monitor.py", line 24
-    valid_ranges = front_sector[r for r in front_sector if math.isfinite(r)]
-                                  ^^^
-SyntaxError: invalid syntax
-
