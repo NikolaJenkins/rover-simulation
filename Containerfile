@@ -24,6 +24,13 @@ RUN export ROS_APT_SOURCE_VERSION=$(curl -s https://api.github.com/repos/ros-inf
     curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-apt-source/releases/download/${ROS_APT_SOURCE_VERSION}/ros2-apt-source_${ROS_APT_SOURCE_VERSION}.$(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}})_all.deb" && \
     dpkg -i /tmp/ros2-apt-source.deb
 
+RUN curl -fsSL https://packages.osrfoundation.org/gazebo.gpg \
+    -o /usr/share/keyrings/pkgs-osrf-archive-keyring.gpg && \
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/pkgs-osrf-archive-keyring.gpg] \
+    https://packages.osrfoundation.org/gazebo/ubuntu-stable \
+    $(. /etc/os-release && echo ${UBUNTU_CODENAME:-${VERSION_CODENAME}}) main" \
+    > /etc/apt/sources.list.d/gazebo-stable.list
+
 RUN apt-get update && apt-get install -y \
     ros-jazzy-desktop \
     python3-catkin-pkg \
