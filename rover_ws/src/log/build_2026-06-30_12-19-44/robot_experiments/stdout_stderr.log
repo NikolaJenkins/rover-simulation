@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing robot_experiments.egg-info/PKG-INFO
+writing dependency_links to robot_experiments.egg-info/dependency_links.txt
+writing entry points to robot_experiments.egg-info/entry_points.txt
+writing requirements to robot_experiments.egg-info/requires.txt
+writing top-level names to robot_experiments.egg-info/top_level.txt
+reading manifest file 'robot_experiments.egg-info/SOURCES.txt'
+writing manifest file 'robot_experiments.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/njoy/ROS/rover_ws/src/install/robot_experiments/lib/python3.12/site-packages/robot-experiments.egg-link (link to .)
+Installing detector script to /home/njoy/ROS/rover_ws/src/install/robot_experiments/lib/robot_experiments
+Installing navigation script to /home/njoy/ROS/rover_ws/src/install/robot_experiments/lib/robot_experiments
+Installing odometry script to /home/njoy/ROS/rover_ws/src/install/robot_experiments/lib/robot_experiments
+
+Installed /home/njoy/ROS/rover_ws/src/build/robot_experiments
+running symlink_data
+symbolically linking /home/njoy/ROS/rover_ws/src/build/robot_experiments/resource/robot_experiments -> /home/njoy/ROS/rover_ws/src/install/robot_experiments/share/ament_index/resource_index/packages
+symbolically linking /home/njoy/ROS/rover_ws/src/build/robot_experiments/package.xml -> /home/njoy/ROS/rover_ws/src/install/robot_experiments/share/robot_experiments

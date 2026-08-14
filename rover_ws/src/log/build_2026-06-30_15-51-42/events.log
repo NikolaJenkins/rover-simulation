@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.000273] (-) JobUnselected: {'identifier': 'robot_experiments'}
+[0.001036] (-) EventReactorShutdown: {}
