@@ -21,7 +21,5 @@ podman build -t rover-dev ~/rover-simulation
 ```
 Build the image with
 ```
-distrobox create \
-    --name rover-dev-container \
-    --image rover-dev
+distrobox create --name rover-dev-container --image rover-dev
 ```
