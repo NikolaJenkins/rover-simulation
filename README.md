@@ -15,11 +15,15 @@ Run
 ```
 git clone git@github.com:NikolaJenkins/rover-simulation.git && cd ~/rover-simulation
 ```
-Build the container with
+Build the image with
 ```
 podman build -t rover-dev ~/rover-simulation
 ```
-Build the image with
+Build the container with
 ```
 distrobox create --name rover-dev-container --image rover-dev
+```
+Enter the container with
+```
+distrobox enter rover-dev-container
 ```
