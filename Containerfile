@@ -36,7 +36,8 @@ RUN apt-get update && apt-get install -y \
     python3-catkin-pkg \
     python3-colcon-common-extensions \
     python3-rosdep \
-    gz-harmonic
+    gz-harmonic \
+    ros-jazzy-ros-gz
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
