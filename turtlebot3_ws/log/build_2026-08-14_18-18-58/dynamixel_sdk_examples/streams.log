@@ -1,0 +1,73 @@
+[0.013s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples
+[0.087s] -- The C compiler identification is GNU 13.3.0
+[0.145s] -- The CXX compiler identification is GNU 13.3.0
+[0.164s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.275s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.275s] -- Detecting C compile features
+[0.275s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.396s] -- Detecting CXX compiler ABI info - done
+[0.405s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.405s] -- Detecting CXX compile features
+[0.405s] -- Detecting CXX compile features - done
+[0.410s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.549s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.615s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.667s] -- Found dynamixel_sdk: 4.0.5 (/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.670s] -- Found dynamixel_sdk_custom_interfaces: 4.0.5 (/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.716s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.731s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.749s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.768s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.828s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.879s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.883s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.976s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.996s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.018s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.095s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[1.099s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.212s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.213s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.213s] -- Configured cppcheck include dirs: /home/njoy/rover-simulation/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples/include
+[1.213s] -- Configured cppcheck exclude dirs and/or files: 
+[1.214s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.214s] -- Configured cpplint exclude dirs and/or files: 
+[1.215s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.215s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.215s] -- Added test 'lint_cmake' to check CMake code style
+[1.216s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.217s] -- Added test 'uncrustify' to check C / C++ code style
+[1.217s] -- Configured uncrustify additional arguments: 
+[1.218s] -- Added test 'xmllint' to check XML markup files
+[1.220s] -- Configuring done (1.2s)
+[1.234s] -- Generating done (0.0s)
+[1.238s] -- Build files have been written to: /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples
+[1.251s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples
+[1.252s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples -- -j16 -l16
+[1.312s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[9.603s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[10.298s] [100%] Built target read_write_node
+[10.320s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples -- -j16 -l16
+[10.329s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples
+[10.335s] -- Install configuration: ""
+[10.336s] -- Execute custom install script
+[10.337s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node
+[10.357s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/lib/dynamixel_sdk_examples/read_write_node.py
+[10.375s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_examples
+[10.394s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_examples
+[10.410s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.sh
+[10.429s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/ament_prefix_path.dsv
+[10.448s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.sh
+[10.467s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/environment/path.dsv
+[10.486s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.bash
+[10.506s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.sh
+[10.525s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.zsh
+[10.543s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/local_setup.dsv
+[10.569s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv
+[10.588s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/ament_index/resource_index/packages/dynamixel_sdk_examples
+[10.608s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig.cmake
+[10.629s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/cmake/dynamixel_sdk_examplesConfig-version.cmake
+[10.647s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.xml
+[10.674s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples' returned '0': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk_examples

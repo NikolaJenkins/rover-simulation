@@ -1,0 +1,53 @@
+[0.026s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2
+[0.103s] -- The C compiler identification is GNU 13.3.0
+[0.179s] -- The CXX compiler identification is GNU 13.3.0
+[0.198s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.325s] -- Detecting CXX compiler ABI info
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.452s] -- Detecting CXX compile features
+[0.452s] -- Detecting CXX compile features - done
+[0.456s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.623s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.707s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.852s] -- Configuring done (0.8s)
+[0.857s] -- Generating done (0.0s)
+[0.859s] -- Build files have been written to: /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2
+[0.868s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/turtlebot3/turtlebot3_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2
+[0.869s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --build /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2 -- -j16 -l16
+[0.919s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --build /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2 -- -j16 -l16
+[0.932s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --install /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2
+[0.942s] -- Install configuration: ""
+[0.943s] -- Execute custom install script
+[0.943s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[0.956s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[0.967s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[0.978s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[0.988s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[0.999s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.010s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.020s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.032s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.045s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.056s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.068s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.079s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.089s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.100s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.111s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.122s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.132s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.142s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.154s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.179s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.198s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.218s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.236s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.256s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.270s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.292s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.336s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --install /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_navigation2

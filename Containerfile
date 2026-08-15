@@ -33,11 +33,11 @@ RUN curl -fsSL https://packages.osrfoundation.org/gazebo.gpg \
 
 RUN apt-get update && apt-get install -y \
     ros-jazzy-desktop \
+    ros-jazzy-ros-gz \
     python3-catkin-pkg \
     python3-colcon-common-extensions \
     python3-rosdep \
     gz-harmonic \
-    ros-jazzy-ros-gz
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 

@@ -1,0 +1,245 @@
+[0.035s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk
+[0.110s] -- The C compiler identification is GNU 13.3.0
+[0.194s] -- The CXX compiler identification is GNU 13.3.0
+[0.214s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.330s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.331s] -- Detecting C compile features
+[0.331s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.462s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.473s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.477s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.636s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.722s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.109s] -- Configuring done (1.1s)
+[1.121s] -- Generating done (0.0s)
+[1.125s] -- Build files have been written to: /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk
+[1.133s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk
+[1.134s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --build /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk -- -j16 -l16
+[1.195s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[1.195s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[1.195s] [ 16%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[1.196s] [ 22%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[1.196s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[1.196s] [ 33%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[1.203s] [ 38%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[1.203s] [ 44%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_handler.cpp.o[0m
+[1.203s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_sync_read.cpp.o[0m
+[1.208s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_fast_bulk_read.cpp.o[0m
+[1.209s] [ 61%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/connector.cpp.o[0m
+[1.209s] [ 66%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.221s] [ 66%] Built target ament_cmake_python_symlink_dynamixel_sdk
+[1.221s] [ 72%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/dynamixel_error.cpp.o[0m
+[1.225s] [ 77%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/control_table.cpp.o[0m
+[1.229s] [ 77%] Built target ament_cmake_python_symlink_dynamixel_easy_sdk
+[1.241s] [ 83%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/group_executor.cpp.o[0m
+[1.249s] [ 88%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_easy_sdk/motor.cpp.o[0m
+[1.293s] [ 94%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[1.816s] running egg_info
+[1.817s] creating dynamixel_sdk.egg-info
+[1.837s] writing dynamixel_sdk.egg-info/PKG-INFO
+[1.837s] writing dependency_links to dynamixel_sdk.egg-info/dependency_links.txt
+[1.837s] writing top-level names to dynamixel_sdk.egg-info/top_level.txt
+[1.837s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.859s] running egg_info
+[1.860s] creating dynamixel_easy_sdk.egg-info
+[1.879s] writing dynamixel_easy_sdk.egg-info/PKG-INFO
+[1.879s] writing dependency_links to dynamixel_easy_sdk.egg-info/dependency_links.txt
+[1.879s] writing top-level names to dynamixel_easy_sdk.egg-info/top_level.txt
+[1.879s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[1.896s] reading manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.897s] writing manifest file 'dynamixel_sdk.egg-info/SOURCES.txt'
+[1.945s] reading manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[1.946s] writing manifest file 'dynamixel_easy_sdk.egg-info/SOURCES.txt'
+[1.957s] [ 94%] Built target ament_cmake_python_build_dynamixel_sdk_egg
+[2.001s] [ 94%] Built target ament_cmake_python_build_dynamixel_easy_sdk_egg
+[2.455s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[2.577s] [100%] Built target dynamixel_sdk
+[2.590s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --build /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk -- -j16 -l16
+[2.592s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --install /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk
+[2.601s] -- Install configuration: ""
+[2.601s] -- Execute custom install script
+[2.602s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/connector.hpp
+[2.614s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/control_table.hpp
+[2.623s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/data_types.hpp
+[2.634s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_easy_sdk.hpp
+[2.643s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/dynamixel_error.hpp
+[2.654s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/group_executor.hpp
+[2.664s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_easy_sdk/motor.hpp
+[2.674s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.684s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.694s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.704s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[2.715s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[2.726s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[2.737s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.746s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.755s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.767s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.776s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.786s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.796s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.806s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.818s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.829s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.840s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xc430_w250.model
+[2.851s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/2xl430_w250.model
+[2.861s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/dynamixel.model
+[2.872s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h42_20_s300_ra.model
+[2.883s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_100_s500_ra.model
+[2.893s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/h54_200_s500_ra.model
+[2.902s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m42_10_s260_ra.model
+[2.911s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_40_s250_ra.model
+[2.921s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/m54_60_s250_ra.model
+[2.933s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_106.model
+[2.943s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_28.model
+[2.953s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/mx_64.model
+[2.963s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph42_020_s300.model
+[2.973s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_100_s500.model
+[2.985s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ph54_200_s500.model
+[2.995s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm42_010_s260.model
+[3.006s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_040_s250.model
+[3.016s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/pm54_060_s250.model
+[3.025s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/rh_p12_rn.model
+[3.037s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181.model
+[3.049s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m181_fw52.model
+[3.059s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288.model
+[3.070s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_m288_fw52.model
+[3.080s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181.model
+[3.090s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t181_fw52.model
+[3.101s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288.model
+[3.112s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc330_t288_fw52.model
+[3.122s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w150.model
+[3.132s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xc430_w240.model
+[3.143s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t210.model
+[3.153s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd430_t350.model
+[3.163s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t150.model
+[3.173s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xd540_t270.model
+[3.184s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v210.model
+[3.196s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_v350.model
+[3.206s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w210.model
+[3.216s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh430_w350.model
+[3.226s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v150.model
+[3.236s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_v270.model
+[3.248s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w150.model
+[3.258s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xh540_w270.model
+[3.268s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl320.model
+[3.279s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077.model
+[3.290s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m077_fw52.model
+[3.300s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288.model
+[3.310s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl330_m288_fw52.model
+[3.321s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xl430_w250.model
+[3.333s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w210.model
+[3.343s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm430_w350.model
+[3.353s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w150.model
+[3.363s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xm540_w270.model
+[3.374s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t200.model
+[3.385s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw430_t333.model
+[3.395s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_h260.model
+[3.405s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t140.model
+[3.416s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/xw540_t260.model
+[3.426s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a051.model
+[3.436s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_a099.model
+[3.448s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_b001.model
+[3.459s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_m001.model
+[3.469s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r051.model
+[3.481s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym070_210_r099.model
+[3.491s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a051.model
+[3.502s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_a099.model
+[3.513s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_b001.model
+[3.523s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_m001.model
+[3.532s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r051.model
+[3.542s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/control_table/ym080_230_r099.model
+[3.553s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.sh
+[3.564s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/pythonpath.dsv
+[3.575s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[3.585s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[3.596s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[3.606s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[3.618s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py
+[3.628s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.cpp
+[3.638s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py
+[3.648s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.cpp
+[3.658s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py
+[3.669s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_bulk_read.cpp
+[3.679s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_fast_sync_read.cpp
+[3.690s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_handler.cpp
+[3.700s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.cpp
+[3.712s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py
+[3.722s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.cpp
+[3.733s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py
+[3.742s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.cpp
+[3.752s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py
+[3.760s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.cpp
+[3.768s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py
+[3.778s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_arduino.cpp
+[3.789s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_linux.cpp
+[3.799s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_mac.cpp
+[3.809s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler_windows.cpp
+[3.820s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.cpp
+[3.834s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py
+[3.846s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.cpp
+[3.857s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py
+[3.867s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py
+[3.880s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/PKG-INFO
+[3.891s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/SOURCES.txt
+[3.902s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/dependency_links.txt
+[3.912s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk-4.0.5-py3.12.egg-info/top_level.txt
+[3.923s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py
+[3.934s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.cpp
+[3.946s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py
+[3.957s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.cpp
+[3.968s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py
+[3.978s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py
+[3.989s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.cpp
+[3.999s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py
+[4.010s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.cpp
+[4.020s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py
+[4.032s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.cpp
+[4.044s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py
+[4.056s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[4.068s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[4.079s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[4.091s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[4.104s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[4.116s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[4.127s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[4.139s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[4.151s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[4.163s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[4.175s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[4.186s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[4.196s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[4.206s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[4.215s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_targets-extras.cmake
+[4.225s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.235s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[4.246s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[4.258s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[4.270s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[4.282s] -- Installing: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[4.349s] Listing '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk'...
+[4.349s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/__init__.py'...
+[4.349s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_read.py'...
+[4.349s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_bulk_write.py'...
+[4.349s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_read.py'...
+[4.350s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/group_sync_write.py'...
+[4.350s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/packet_handler.py'...
+[4.350s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/port_handler.py'...
+[4.350s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol1_packet_handler.py'...
+[4.350s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/protocol2_packet_handler.py'...
+[4.350s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_sdk/robotis_def.py'...
+[4.414s] Listing '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk'...
+[4.414s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/__init__.py'...
+[4.414s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/connector.py'...
+[4.414s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/control_table.py'...
+[4.414s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/data_types.py'...
+[4.414s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/dynamixel_error.py'...
+[4.414s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/group_executor.py'...
+[4.414s] Compiling '/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages/dynamixel_easy_sdk/motor.py'...
+[4.425s] -- Installing: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport.cmake
+[4.426s] -- Installing: /home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkExport-noconfig.cmake
+[4.430s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake --install /home/njoy/rover-simulation/turtlebot3_ws/build/dynamixel_sdk

@@ -1,0 +1,81 @@
+[0.012s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node
+[0.072s] -- The C compiler identification is GNU 13.3.0
+[0.130s] -- The CXX compiler identification is GNU 13.3.0
+[0.150s] -- Detecting C compiler ABI info
+[0.252s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.272s] -- Detecting CXX compiler ABI info
+[0.393s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.406s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.561s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.632s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.685s] -- Found dynamixel_sdk: 4.0.5 (/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.689s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.740s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.756s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.775s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.796s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.845s] -- Found message_filters: 4.11.17 (/opt/ros/jazzy/share/message_filters/cmake)
+[0.927s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.931s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.026s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.047s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.072s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.156s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.184s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.209s] -- Found std_srvs: 5.3.8 (/opt/ros/jazzy/share/std_srvs/cmake)
+[1.236s] -- Found tf2: 0.36.21 (/opt/ros/jazzy/share/tf2/cmake)
+[1.242s] -- Found tf2_ros: 0.36.21 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.373s] -- Found turtlebot3_msgs: 2.4.0 (/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.487s] -- Configuring done (1.5s)
+[1.516s] -- Generating done (0.0s)
+[1.522s] -- Build files have been written to: /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node
+[1.537s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node
+[1.538s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node -- -j16 -l16
+[1.607s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[1.608s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[1.608s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.608s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[1.608s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[1.608s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[1.608s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.608s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[1.608s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[1.608s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[1.608s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[17.216s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[17.754s] [ 85%] Built target turtlebot3_node_lib
+[17.778s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[21.007s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[22.306s] [100%] Built target turtlebot3_ros
+[22.318s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node -- -j16 -l16
+[22.320s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node
+[22.329s] -- Install configuration: ""
+[22.339s] -- Execute custom install script
+[22.339s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[22.349s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[22.358s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[22.368s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[22.378s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[22.389s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[22.398s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[22.411s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[22.424s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[22.435s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[22.445s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[22.456s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[22.468s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[22.478s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[22.489s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[22.500s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[22.510s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.521s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[22.531s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[22.540s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[22.550s] -- Symlinking: /home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[22.564s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore LD_LIBRARY_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_node

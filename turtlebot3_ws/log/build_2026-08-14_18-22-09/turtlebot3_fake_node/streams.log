@@ -1,0 +1,35 @@
+[0.206s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_bringup:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_node:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_navigation2:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_description:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_cartographer:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_examples:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ PYTHONPATH=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_teleop:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_example:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_example/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.12/site-packages:/home/njoy/rover-simulation/turtlebot3_ws/install/dynamixel_sdk/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_fake_node
+[0.265s] -- The C compiler identification is GNU 13.3.0
+[0.330s] -- The CXX compiler identification is GNU 13.3.0
+[0.351s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.453s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.453s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.464s] -- Detecting CXX compiler ABI info
+[0.581s] -- Detecting CXX compiler ABI info - done
+[0.590s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.590s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.596s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.756s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.819s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.887s] -- Found geometry_msgs: 5.3.8 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.946s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.964s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.058s] -- Found nav_msgs: 5.3.8 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.107s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.167s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.172s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.272s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.291s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.405s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.430s] -- Found tf2: 0.36.21 (/opt/ros/jazzy/share/tf2/cmake)
+[1.437s] -- Found tf2_msgs: 0.36.21 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[1.491s] -- Found turtlebot3_msgs: 2.4.0 (/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[1.601s] -- Configuring done (1.4s)
+[1.618s] -- Generating done (0.0s)
+[1.622s] -- Build files have been written to: /home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_fake_node

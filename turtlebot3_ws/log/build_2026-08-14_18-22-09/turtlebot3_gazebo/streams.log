@@ -1,0 +1,35 @@
+[0.035s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_gazebo
+[0.129s] -- The C compiler identification is GNU 13.3.0
+[0.251s] -- The CXX compiler identification is GNU 13.3.0
+[0.279s] -- Detecting C compiler ABI info
+[0.415s] -- Detecting C compiler ABI info - done
+[0.436s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.436s] -- Detecting C compile features
+[0.437s] -- Detecting C compile features - done
+[0.459s] -- Detecting CXX compiler ABI info
+[0.600s] -- Detecting CXX compiler ABI info - done
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.616s] -- Detecting CXX compile features
+[0.617s] -- Detecting CXX compile features - done
+[0.630s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.814s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.887s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.976s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[0.976s]   By not providing "Findros_gz_sim.cmake" in CMAKE_MODULE_PATH this project
+[0.976s]   has asked CMake to find a package configuration file provided by
+[0.977s]   "ros_gz_sim", but CMake did not find one.
+[0.977s] 
+[0.977s]   Could not find a package configuration file provided by "ros_gz_sim" with
+[0.978s]   any of the following names:
+[0.978s] 
+[0.978s]     ros_gz_simConfig.cmake
+[0.978s]     ros_gz_sim-config.cmake
+[0.978s] 
+[0.978s]   Add the installation prefix of "ros_gz_sim" to CMAKE_PREFIX_PATH or set
+[0.978s]   "ros_gz_sim_DIR" to a directory containing one of the above files.  If
+[0.978s]   "ros_gz_sim" provides a separate development package or SDK, be sure it has
+[0.978s]   been installed.
+[0.979s] 
+[0.979s] [0m
+[0.979s] -- Configuring incomplete, errors occurred!
+[0.985s] Invoked command in '/home/njoy/rover-simulation/turtlebot3_ws/build/turtlebot3_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_gazebo

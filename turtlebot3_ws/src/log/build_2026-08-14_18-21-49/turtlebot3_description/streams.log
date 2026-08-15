@@ -1,0 +1,21 @@
+[0.042s] Invoking command in '/home/njoy/rover-simulation/turtlebot3_ws/src/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_teleop:/home/njoy/rover-simulation/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=ima:enforcing https://debuginfod.fedoraproject.org/ ima:ignore PS1=📦[\u@rover-dev-container \W]$ /usr/bin/cmake /home/njoy/rover-simulation/turtlebot3_ws/src/turtlebot3/turtlebot3_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/njoy/rover-simulation/turtlebot3_ws/src/install/turtlebot3_description
+[0.121s] -- The C compiler identification is GNU 13.3.0
+[0.197s] -- The CXX compiler identification is GNU 13.3.0
+[0.220s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.333s] -- Detecting C compile features
+[0.334s] -- Detecting C compile features - done
+[0.345s] -- Detecting CXX compiler ABI info
+[0.463s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.473s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.678s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.770s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.851s] -- Found urdf: 2.10.1 (/opt/ros/jazzy/share/urdf/cmake)
+[0.932s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[1.080s] -- Configuring done (1.0s)
+[1.085s] -- Generating done (0.0s)
+[1.087s] -- Build files have been written to: /home/njoy/rover-simulation/turtlebot3_ws/src/build/turtlebot3_description
