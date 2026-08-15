@@ -1,1 +1,0 @@
-/home/njoy/ROS/turtlebot3_ws/src/DynamixelSDK/ros/dynamixel_sdk/include/dynamixel_easy_sdk/dynamixel_error.hpp
