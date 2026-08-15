@@ -27,3 +27,5 @@ Enter the container with
 ```
 distrobox enter rover-dev-container
 ```
+Follow the steps in 'Install TurtleBot3 Packages' section at this link: https://docs.robotis.com/docs/systems/turtlebot3/quick_start_guide/pc_setup/.
+Follow the steps in this link to setup the Gazebo simulation: https://docs.robotis.com/docs/systems/turtlebot3/simulation/gazebo_simulation/?ros=jazzy#install-simulation-package.
