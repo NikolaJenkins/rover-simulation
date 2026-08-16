@@ -12,7 +12,7 @@ Build an autonomous rover simulation using ROS 2 and Gazebo.
 # Steps to replicate
 Create a new folder with
 ```
-mkdir ~/ROS && CD ~/ROS
+mkdir ~/ROS && cd ~/ROS
 ```
 Run 
 ```
